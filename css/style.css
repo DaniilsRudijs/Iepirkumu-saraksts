@@ -17,7 +17,7 @@ h1 {
     align-items: center;
 }
 
-#pievienotPirkumu {
+#jaunsPirkums {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,4 +25,25 @@ h1 {
     height: 225px;
     font-size: 18px;
     border-radius: 30px;
+    border: 7px solid SkyBlue;
+}
+
+#popUp {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#form {
+    background-color: white;
+    margin: 15% auto;
+    border: 1px solid black;
+    width: 400px;
+    height: 250px;
 }
