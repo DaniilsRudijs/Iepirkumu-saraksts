@@ -8,7 +8,7 @@ document.getElementById('jaunsPirkums').addEventListener('click', () => {
 document.getElementById('pievienotPirkumu').addEventListener('click', () => {
     popUp.style.display = 'none';
 
-    let pirkums = {Nosaukums: precesNosaukums.value, Daudzums: daudzums.value};
+    let pirkums = {precesNosaukums: precesNosaukums.value, daudzums: daudzums.value};
 
     precesNosaukums.value = "";
     daudzums.value = "";
