@@ -44,6 +44,7 @@ input#precesNosaukums {
     height: 30px;
     width: 200px;
     font-size: 20px;
+    margin: 12px;
 }
 
 input#daudzums {
@@ -61,6 +62,7 @@ input#daudzums {
     background-color: white;
     border-radius: 30px;
     font-size: 20px;
+    margin-left: 120px;
 }
 
 #form {
